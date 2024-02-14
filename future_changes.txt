@@ -1,0 +1,8 @@
+# find no of pages of pdf using PyPDF 
+# try to include in-between places, via routes, time duration, and bus numbers in the table 
+# sort button to sort according to departure, arrival, or time duration
+# resize the streamlit dataframe view 
+# clear the streamlit selectbox 
+# clean the places.json file as it contains duplicates caused by full stops, spaces, alias names, etc.
+
+# try to create a web application with the json files instead of streamlit 
