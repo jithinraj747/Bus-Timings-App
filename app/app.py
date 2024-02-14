@@ -3,12 +3,12 @@ import json
 
 import streamlit as st
 
-# add absolute file paths or else streamlit will not recognise it
+# streamlit recognizes only absolute file paths. Here, relative paths are used for representation. Please change it.
 
-with open('/home/bandicoot4218/Desktop/EDA/Bus Timings App/app/places.json') as data:
+with open('places.json') as data:
     places = json.load(data)
 
-with open('/home/bandicoot4218/Desktop/EDA/Bus Timings App/app/time_tables.json') as data:
+with open('time_tables.json') as data:
     time_tables = json.load(data)
 
 # a - boarding point, b - destination
