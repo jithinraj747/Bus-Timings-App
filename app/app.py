@@ -3,7 +3,7 @@ import json
 
 import streamlit as st
 
-# add absolute file paths or else streamlit will not recognise it
+# streamlit recognizes only absolute file paths. Here, relative paths are used for representation. Please change it.
 
 with open('places.json') as data:
     places = json.load(data)
